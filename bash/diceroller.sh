@@ -18,5 +18,7 @@ $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled
 
 echo "
 Rolling 5 six sided dice
-$(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled, $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled, $(( RANDOM % 6 + 1 )) rolled
+$(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) , $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) , $(( RANDOM % 6 + 1 )) rolled
 "
+
+echo "One roll of a twenty sided dice $((RANDOM % 20 + 1))"
