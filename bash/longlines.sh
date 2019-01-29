@@ -11,10 +11,12 @@ The string is created on the command line, like and other string.
 # multiline pipeline sequence
 echo "The additional lines are indented for code clarity" |
     sed "aThis is an example of a command that spans lines by continuing a pipeline sequence" |
+    tac # the tac reverses the order of the output lines
 
 # multiline command using backlash to escape the end of line character
 echo \
     "This line continues because we turned off the end of line character on the first line"
+
 
 # multiline command due to inline data using HERE document
 cat <<EndOfFile
